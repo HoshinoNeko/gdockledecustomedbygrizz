@@ -1,0 +1,61 @@
+Package: luci-app-ssr-plus
+Version: 183-7
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget-ssl, lua, libuci-lua, microsocks, dns2socks, shadowsocksr-libev-ssr-local, tcping, resolveip, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs, v2ray-plugin, xray-core, trojan, ipt2socks, naiveproxy, redsocks2, kcptun-client, shadowsocksr-libev-server
+Section: luci
+Architecture: all
+Installed-Size: 186510
+Filename: luci-app-ssr-plus_183-7_all.ipk
+Size: 186691
+SHA256sum: 9f8fb48228f4e991f7e3165825d2a187c653d2c80a88d02458da2d72df7f0cca
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 183-7
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 6403
+Filename: luci-i18n-ssr-plus-zh-cn_183-7_all.ipk
+Size: 7248
+SHA256sum: 7cb19b71cdfe1afd1af78932446e2bd90e303f646d7b8fb52eb4c99da74fabfa
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: naiveproxy
+Version: 88.0.4324.96-1-1
+Depends: libc, libatomic1, libnss
+License: BSD 3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2123855
+Filename: naiveproxy_88.0.4324.96-1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2117520
+SHA256sum: 84d91cc5f31c996873685e65403aedf415cc4d99904ad1e72bc2f2d2ca84bdee
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3215
+Filename: tcping_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3899
+SHA256sum: 7b049d36c96e4d28054fd54a770ea0b12277f1dbc16593bd3ba86e2d440f8ab0
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.2.4-1
+Depends: libc, ca-bundle
+Provides: v2ray-core
+License: MPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4027299
+Filename: xray-core_1.2.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4028880
+SHA256sum: 89102f03d6b96b5489e7c1232b6cd3a4e7f630f9120a22d0188438b18998fbb1
+Description:  Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
+ It secures your network connections and thus protects your privacy.
+
